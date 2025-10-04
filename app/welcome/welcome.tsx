@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import MyButton from "~/components/MyButton";
+import MyButton from "~/components/MyButton.jsx";
 import Profile from "~/components/Person";
 import type Person from "~/types/Person"; 
 
