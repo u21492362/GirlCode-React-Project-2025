@@ -31,17 +31,17 @@ export default function RockPaperScissors() {
     ) {
       const newPlayerScore = playerScore + 1;
       setPlayerScore(newPlayerScore);
-      if (newPlayerScore === 5) {
+      if (newPlayerScore === 3) {
         setGameOver(true);
-        return "🎉 You reached 5 points and won the game!";
+        return "🎉 You reached 3 points and won the game!";
       }
       return "You win this round! 🎉";
     } else {
       const newComputerScore = computerScore + 1;
       setComputerScore(newComputerScore);
-      if (newComputerScore === 5) {
+      if (newComputerScore === 3) {
         setGameOver(true);
-        return "😢 Computer reached 5 points. Game over!";
+        return "😢 Computer reached 3 points. Game over!";
       }
       return "Computer wins this round! 😢";
     }
